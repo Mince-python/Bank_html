@@ -1,23 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html For Banking</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Banking prototype</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+  <body>
     <header>
-        <h1>Welcome To Html Western Bank Template</h1>
-        <nav>
-            <ul>
-                <li><a href="contact_us.html" target="_blank">Contact us</a></li>
-                <li><a href="login.html" target="_blank">Login</a></li>
-                <li><a href="sign_up.html" target="_blank">Sign up</a></li>
-                <li><a href="transfer_page.html" target="_blank">Transfer</a></li>
-                <li><a href="about_us.html" target="_blank">About us</a></li>
-            </ul>
-        </nav>
+      <h1>Welcome To Western Bank Template</h1>
+      
+      <nav>
+        <ul>
+          <li><a href="#contact_us" target="_blank">Contact us</a></li>
+          <li><a href="#login" target="_blank">Login</a></li>
+          <li><a href="#sign up" target="_blank">Sign up</a></li>
+          <li><a href="#transfer" target="_blank">Transfer</a></li>
+          <li><a href="#about" target="_blank">About us</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <!-- Login Page -->
+    <div class="login-section">
+      <form>
+        <h2 id="login">Login</h2>
+        <div >
+          <label for="username">Username</label>
+          <input type="text" name="username required"  />
+        </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input type="number" name="password required" />
+        </div>
+
+        <button type="submit">Login</button>
+        <p>Don't have an account? <a href="sign_up.html">Sign up</a></p>
+      </form>
+    </div>
+
+    <!-- Sign up -->
+    
+    <section class="sign-up-section">
+      <h1 class="" id="sign up">Sign Up</h1>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Ustazy Al-imany" /><br /><br />
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="johndoe@gmail.com" /><br /><br />
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Mince_python" /><br /><br />
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="********" /><br /><br />
+
+        <label for="confirm password">Confirm Password</label>
+        <input type="password" placeholder="********" /><br /><br />
+
+        <button type="submit">Sign Up</button><br /><br />
+        <a href="#">Already have an account? Login</a>
+      </form>
+    </section>
+
+    <!-- About us -->
+
+    <main class="about-section">
+      <section>
+        <h1 id="about">About Us</h1>
+        <p>Western Bank is a cutting-edge financial institution dedicated to providing secure, innovative, and customer-centric banking solutions. With a strong commitment to excellence and community, we empower individuals and businesses to achieve financial success. Our team of experts is passionate about delivering exceptional service and fostering long-lasting relationships.</p>
+      </section>
+
+      <section>
+        <h2>Our story</h2>
+        <p>
+          Full Stack Developer & Problem Solver
+"Highly motivated and detail-oriented full stack developer with expertise in crafting scalable, efficient, and visually stunning web applications. Proficient in a range of technologies, including HTML, CSS, JavaScript, React, Node.js, and MySQL. Passionate about delivering high-quality solutions that exceed client expectations. Strong communicator with excellent team collaboration and problem-solving skills.
+        </p>
+        <img src="images/profile pic.PNG" alt="developer image" />
+      </section>
+
+      <section>
+        <h2>Our Mission & Values</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo,
+          tempore temporibus omnis reprehenderit, nihil maxime doloribus
+          consequuntur dolor impedit possimus nobis amet porro eum. Sequi
+          nesciunt voluptatum voluptates nulla commodi!
+        </p>
+      </section>
+    </main>
+
+    <!-- Transfer page -->
+    <main class="transfer-section">
+      <h1 id="transfer">Bank Transaction Form</h1>
+      <form action="">
+        <label for="">Account Holder's Name:</label>
+        <input type="text" placeholder="Ustazy Al imany" /><br /><br />
+  
+        <label for="">Account Number:</label>
+        <input type="number" placeholder="123456789" /><br /><br />
+  
+        <label for="">Transaction Type:</label>
+        <select>
+          <option value="deposit">Deposit</option>
+          <option value="withdraw">Withdraw</option>
+          <option value="transfer">Transfer</option></select
+        ><br /><br />
+  
+        <label for="">Amount:</label>
+        <input type="number" placeholder="3000.00" /><br /><br />
+  
+        <label for="">Recipient's Account Number (for transfer):</label>
+        <input type="number" placeholder="9676543210" /><br /><br />
+  
+        <button type="submit">Process Transaction</button>
+      </form>
+    </main>
+   
+
+    <!-- Contact me -->
+     <main class="contact-section">
+      <h1 id="contact us">Contact Us</h1>
+    <div>
+      <p>Get in touch with us!</p>
+      <form>
+        <label>Name</label>
+        <input type="text" placeholder="Ustazy Al-imany" /><br /><br />
+
+        <label>Email</label>
+        <input type="text" placeholder="johndoe@gmail.com" /><br /><br />
+
+        <label>Message</label>
+        <textarea id="" rows="5"></textarea><br /><br />
+
+        <button type="submit">Send Message</button>
+      </form><br><br>
+
+      <div>
+        <h2>Contact Information</h2>
+        <ul>
+          <li>+2348144056212</li>
+          <li>info@johndoe.com</li>
+          <li>123 main st, inside life</li>
+        </ul>
+      </div>
+    </div>
+     </main>
+    
+    
+
+    <nav>
+      <ul>
+        <li><a href="#contact us" target="_blank">Contact us</a></li>
+        <li><a href="#login" target="_blank">Login</a></li>
+        <li><a href="#sign up" target="_blank">Sign up</a></li>
+        <li><a href="#transfer" target="_blank">Transfer</a></li>
+        <li><a href="#about" target="_blank">About us</a></li>
+      </ul>
+    </nav>
     <footer>&copy; 2024 Mince_python</footer>
-</body>
+  </body>
 </html>
